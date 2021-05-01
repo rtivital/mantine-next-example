@@ -1,5 +1,5 @@
-import TransactionTable from "../components/TransactionsTable/TransactionTable";
+import TodoList from "../components/TodoList";
 
 export default function Home() {
-  return <TransactionTable />;
+  return <TodoList />;
 }
