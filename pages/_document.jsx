@@ -10,7 +10,7 @@ export default class _Document extends Document {
     ctx.renderPage = () =>
       originalRenderPage({
         enhanceApp: (App) => (props) => (
-          <JssProvider registry={registry} generateId={generateId} link>
+          <JssProvider registry={registry} generateId={generateId}>
             <App {...props} />
           </JssProvider>
         ),
