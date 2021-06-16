@@ -1,19 +1,26 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, {
+  Html,
+  Head,
+  Main,
+  NextScript,
+  DocumentContext,
+} from "next/document";
 import { SheetsRegistry, JssProvider, createGenerateId } from "react-jss";
 
 export default class _Document extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps(ctx: DocumentContext) {
     const registry = new SheetsRegistry();
-    const generateId = createGenerateId();
+    const generateId = createGenerateId({ minify: true });
     const originalRenderPage = ctx.renderPage;
 
     ctx.renderPage = () =>
       originalRenderPage({
-        enhanceApp: (App) => (props) => (
-          <JssProvider registry={registry} generateId={generateId}>
-            <App {...props} />
-          </JssProvider>
-        ),
+        enhanceApp: (App) => (props) =>
+          (
+            <JssProvider registry={registry} generateId={generateId}>
+              <App {...props} />
+            </JssProvider>
+          ),
       });
 
     const initialProps = await Document.getInitialProps(ctx);
