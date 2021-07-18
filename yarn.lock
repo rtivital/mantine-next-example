@@ -78,24 +78,25 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.0.tgz#f3933a44e365864f4dad5db94158106d511e8131"
   integrity sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
 
-"@mantine/core@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-1.3.1.tgz#9eff042e7a4866e60edeaadc67d9bd96426fbdb5"
-  integrity sha512-qcGwyAmUw6bYsNwfBtQ5KcOD3Orfu/3zq8cYETb3JN5QGRGEyzQW9FcxBODYC70KmBYYovNNdyZqOPM3UZ8uLg==
+"@mantine/core@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@mantine/core/-/core-2.0.7.tgz#ba0240925847a3fc11d99c55e8447e596627e803"
+  integrity sha512-kOg6kAr2k9/kkqgic+GAUx4oUEZpujPM3hYbJJSfJFoUjYGkUJe1RUzhniA5TcHMZ4h41euRzIg6xxojio4ahw==
   dependencies:
     clsx "^1.1.1"
+    normalize-jss "^4.0.0"
     react-textarea-autosize "^8.3.2"
     react-transition-group "^4.4.2"
 
-"@mantine/hooks@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-1.3.1.tgz#4e6908cb6085088b4f476f70f888e83499b4c95b"
-  integrity sha512-vE5Wk6XQXgOjg0MqWA8vl2zLlG+xcrfikV6jyCJQkPHyxKFYGv25XG1A+Egxa6vXakseCIBG1ERY0iDFkcQi0A==
+"@mantine/hooks@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-2.0.7.tgz#7faedc55872dfc9a1db2c457794bce259ec7002a"
+  integrity sha512-TzNzAWEaHJ8oxLlQZKad8RtS2NJZyRGIFRtdySgfMKtoVoJwFX5vbvBmaryxjguLe6uY/5JJwu4rzrZYTMBHsA==
 
-"@mantine/notifications@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-1.3.1.tgz#ecd583188e05642c0a333f651e0d5bf315b9f08f"
-  integrity sha512-eBTt+6z5KkwISfcVaHyjfXJIk3DNnBPSCq6AjlyGz1MoVJvMzaf0mriK/q1rVpgNfbmMqhxfTpZj8OTnyG0b0w==
+"@mantine/notifications@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@mantine/notifications/-/notifications-2.0.7.tgz#875feebc16b9b3e35c5c84215f32dbee04d47f55"
+  integrity sha512-WbK+eBse876sfP+Im6Yu2V409tUQtCWE0kvzGKVYT0OI8BDUzzHInSLDv5Bn6jmEcWnPnxIiWxznD8emPdoxaw==
   dependencies:
     clsx "^1.1.1"
     react-transition-group "^4.4.2"
@@ -1439,6 +1440,11 @@ node-releases@^1.1.69:
   version "1.1.73"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.73.tgz#dd4e81ddd5277ff846b80b52bb40c49edf7a7b20"
   integrity sha512-uW7fodD6pyW2FZNZnp/Z3hvWKeEW1Y8R1+1CnErE8cXFXzl5blBOoVB41CvMer6P6Q0S5FXDwcHgFd1Wj0U9zg==
+
+normalize-jss@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/normalize-jss/-/normalize-jss-4.0.0.tgz#355e514127e7ba8f4b38a7e705cfeb86507ea0dd"
+  integrity sha512-zsn6yP0fOoDpzktjHCWKGVDMssYso0h6wxjW3+ABUp5CeEPpYc9YUy6cy7/SLO2yrPvtEzx0vu79Y9iEF2qSnA==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"

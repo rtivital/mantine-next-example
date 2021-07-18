@@ -8,9 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "@mantine/core": "^1.3.1",
-    "@mantine/hooks": "1.3.1",
-    "@mantine/notifications": "1.3.1",
+    "@mantine/core": "2.0.7",
+    "@mantine/hooks": "2.0.7",
+    "@mantine/notifications": "2.0.7",
     "@modulz/radix-icons": "^4.0.0",
     "next": "10.1.3",
     "react": "17.0.2",
